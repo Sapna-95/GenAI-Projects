@@ -1,0 +1,9 @@
+streamlit>=1.29.0  # For the user interface
+PyPDF2>=3.0.1
+langchain>=0.3.23  # Or the latest stable version
+langchain-community>=0.0.20 # Or the latest stable version
+langchain-core>=0.1.30 # Ensure core is also up-to-date
+faiss-cpu>=1.7.4
+transformers>=4.35.0 # Required for HuggingFaceEmbeddings and pipeline
+sentence-transformers>=2.2.2 # Required by HuggingFaceEmbeddings
+openai>=1.7.0,<2.0.0 # If you intend to switch back to OpenAI at some point
