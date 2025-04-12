@@ -1,0 +1,5 @@
+langchain==0.0.348
+langchain-community==0.0.20
+openai==0.28.1
+faiss-cpu==1.7.4
+PyPDF2==3.0.1
