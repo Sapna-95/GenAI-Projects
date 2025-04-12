@@ -1,18 +1,18 @@
-# My Chatbot
+# My Chatbot 💬
 
-This is a simple chatbot application built using Streamlit, LangChain, and Hugging Face Transformers.
+This is a simple chatbot application built using Streamlit 🚀, LangChain 🔗, and Hugging Face Transformers 🤗.
 
 **Functionality:**
 
-* Allows users to upload PDF files.
-* Extracts the text content from the uploaded PDF.
-* Splits the text into smaller chunks.
-* Generates vector embeddings for these chunks using a Hugging Face sentence transformer model (`sentence-transformers/all-mpnet-base-v2`).
-* Creates a FAISS vector store to index the embeddings.
-* Enables users to ask questions related to the content of the uploaded PDF.
-* Performs a similarity search on the vector store to find relevant document chunks.
-* Uses a Hugging Face question answering model (`deepset/roberta-large-squad2`) to extract answers from the relevant context.
-* Displays the answer and a confidence score (if provided by the QA model).
+* 📤 Allows users to upload PDF files.
+* 📄 Extracts the text content from the uploaded PDF.
+* ✂️ Splits the text into smaller chunks.
+* 🧠 Generates vector embeddings for these chunks using a Hugging Face sentence transformer model (`sentence-transformers/all-mpnet-base-v2`).
+* 🗂️ Creates a FAISS vector store to index the embeddings.
+* ❓ Enables users to ask questions related to the content of the uploaded PDF.
+* 🔍 Performs a similarity search on the vector store to find relevant document chunks.
+* 🤖 Uses a Hugging Face question answering model (`deepset/roberta-large-squad2`) to extract answers from the relevant context.
+* ✅ Displays the answer and a confidence score (if provided by the QA model).
 
 **How to Use:**
 
@@ -39,18 +39,19 @@ This application can be deployed using Streamlit Community Cloud by hosting the 
 
 * `app.py`: The main Python script containing the Streamlit application code.
 * `requirements.txt`: A file listing the Python dependencies required to run the application.
+
 ** Live Demo:**
-https://genai-projects-sapna.streamlit.app/
+🔗 [https://genai-projects-sapna.streamlit.app/](https://genai-projects-sapna.streamlit.app/)
 
 **Further Development:**
 
 Potential future enhancements could include:
 
-* Support for other document types.
-* More sophisticated question answering strategies.
-* Improved user interface and feedback.
-* Handling of multiple uploaded documents.
-* Saving and loading the vector store for faster processing.
+* ➕ Support for other document types (e.g., TXT, CSV).
+* 💡 More sophisticated question answering strategies.
+* ✨ Improved user interface and feedback.
+* 📚 Handling of multiple uploaded documents.
+* 💾 Saving and loading the vector store for faster processing.
 
 **Author**
-Sapna Devi
+👩‍💻 Sapna Devi
